@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/micButton"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_mic"
+        android:background="@android:color/transparent"
+        android:contentDescription="Micrófono"
+        android:scaleType="fitCenter" />
+</RelativeLayout>
